@@ -50,7 +50,7 @@ export default function Explore() {
         <div className="flex justify-center  mb-5">
           <p className="font-bold text-white text-[55px] ">Explore Weapons</p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-14 justify-items-center mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:gap-14 justify-items-center mt-20">
           {weponAddress.map((gun, index) => {
             return (
               <div key={index}>
@@ -67,7 +67,7 @@ export default function Explore() {
             Explore Characters
           </p>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-14 justify-items-center mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 lg:gap-14 justify-items-center mt-20">
           {characterAddress.map((character, index) => {
             return (
               <div key={index}>
