@@ -12,6 +12,7 @@ export default function HeroSection() {
     <div className="flex pt-[145px] h-screen  ">
       {/* Col 1 */}
       <div className="flex flex-col w-[60%]  h-[307px] ">
+        {/* Go Pro......Guns And Goodies */}
         <div className="pb-5">
           <div className="h-[59px]">
             <h1 className="font-bold text-white text-[60px] ">Go Pro With</h1>
@@ -37,6 +38,7 @@ export default function HeroSection() {
             </h1>
           </div>
         </div>
+        {/* ---------------------------------------------------------------------------- */}
 
         <div className="my-6">
           <p className=" text-[#9F8FC1] text-[18px]">
@@ -80,16 +82,19 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+      {/* -------------------Col1 End------------------------------------------------------- */}
 
       {/* Col 2 */}
 
+      {/* HeroImage*/}
       <div className="flex flex-col w-[40%]  ">
         <div className="">
           <picture>
             <img src={heroRightImage} alt="" className="" />
           </picture>
         </div>
-
+        
+        {/* Hero Image relateve Etherium */}
         <div className="relative">
           <div className="absolute bottom-[-35px] left-[20px] flex flex-col gap-2 h-[130px] w-[175px]  justify-center items-center bg-gradient-to-br from-gray-500  rounded-[25px] ">
             <p className="text-white text-base font-medium ">GunName</p>
@@ -112,6 +117,7 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+      {/* -----------------------Col2 end----------------------------------------------- */}
     </div>
   );
 }
